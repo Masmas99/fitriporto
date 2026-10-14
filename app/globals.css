@@ -777,6 +777,17 @@ button {
 .navbar__link.is-active::after {
   display: none;
 }
+.navbar__link--cv {
+  gap: 6px;
+  background: var(--yellow);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+.navbar__link--cv::after {
+  display: none;
+}
+.navbar__link--cv:hover {
+  transform: translateY(-2px) rotate(-1deg);
+}
 .navbar__toggle {
   display: none;
   place-items: center;

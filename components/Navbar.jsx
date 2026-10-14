@@ -113,6 +113,17 @@ export default function Navbar({ brand = "Fitri" }) {
               </a>
             </li>
           ))}
+          <li>
+            <a
+              href="/CV.pdf"
+              className="navbar__link navbar__link--cv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download CV
+              <Icon name="arrowRight" size={16} />
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
