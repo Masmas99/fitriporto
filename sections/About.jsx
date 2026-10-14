@@ -4,6 +4,7 @@ import Polaroid from "@/components/Polaroid";
 import SectionHeading from "@/components/SectionHeading";
 import StickyNote from "@/components/StickyNote";
 import Tape from "@/components/Tape";
+import TypewriterText from "@/components/TypewriterText";
 import { Sparkle, Star } from "@/components/Doodles";
 import { profile } from "@/data/profile";
 
@@ -38,11 +39,7 @@ export default function About() {
           </div>
 
           <div className="about__text">
-            {profile.aboutParagraphs.map((p, i) => (
-              <p key={i} className={i === 0 ? "about__lead" : undefined}>
-                {p}
-              </p>
-            ))}
+            <TypewriterText paragraphs={profile.aboutParagraphs} />
 
             <div className="about__interests">
               <h3 className="mini-title">

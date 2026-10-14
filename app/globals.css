@@ -1143,6 +1143,17 @@ button {
   line-height: 1.45;
   color: var(--blue-dark);
 }
+.about__typing-cursor {
+  display: inline-block;
+  margin-left: 2px;
+  color: var(--pink-ink);
+  animation: typingCursor 0.7s steps(2, start) infinite;
+}
+@keyframes typingCursor {
+  to {
+    visibility: hidden;
+  }
+}
 .about__interests {
   margin-top: 30px;
   padding-top: 24px;
