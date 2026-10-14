@@ -20,8 +20,8 @@ export const profile = {
    * Foto profil. Isi dengan path lokal di folder /public, mis. "/images/fitri.jpg".
    * Selama bernilai null, website menampilkan placeholder polaroid.
    */
-  photo: null,
-  photoAbout: null,
+  photo: "/FOTO.webp",
+  photoAbout: "/FOTO.webp",
 
   /** Biodata singkat — jangan diisi dengan tebakan. */
   biodata: [
