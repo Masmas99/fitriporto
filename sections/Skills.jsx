@@ -16,7 +16,7 @@ export default function Skills() {
 
         <SectionHeading
           id="skills-title"
-          number="03"
+          number="04"
           kicker="Skills & tools"
           title="WHAT I BRING"
           highlight="BRING"

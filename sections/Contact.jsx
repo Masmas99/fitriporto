@@ -23,7 +23,7 @@ export default function Contact() {
           <div className="contact__intro">
             <SectionHeading
               id="contact-title"
-              number="04"
+              number="05"
               kicker="Contact"
               title="SAY HELLO!"
               highlight="HELLO!"
