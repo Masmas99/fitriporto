@@ -41,6 +41,7 @@ export function Squiggle({ className = "", style }) {
         stroke="currentColor"
         strokeWidth="3.5"
         strokeLinecap="round"
+        className="doodle-stroke doodle-stroke--squiggle"
       />
     </svg>
   );
@@ -56,6 +57,7 @@ export function Arrow({ className = "", style }) {
         strokeWidth="3"
         strokeLinecap="round"
         strokeDasharray="1 0"
+        className="doodle-stroke doodle-stroke--arrow-body"
       />
       <path
         d="M90 6l16 12-16 12"
@@ -64,6 +66,7 @@ export function Arrow({ className = "", style }) {
         strokeWidth="3"
         strokeLinecap="round"
         strokeLinejoin="round"
+        className="doodle-stroke doodle-stroke--arrow-head"
       />
     </svg>
   );
@@ -92,6 +95,7 @@ export function Swirl({ className = "", style }) {
         stroke="currentColor"
         strokeWidth="3"
         strokeLinecap="round"
+        className="doodle-stroke doodle-stroke--swirl"
       />
     </svg>
   );
