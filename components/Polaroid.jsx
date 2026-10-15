@@ -22,7 +22,14 @@ export default function Polaroid({
       <Tape color={tape} className="polaroid__tape" />
       <div className="polaroid__photo">
         {src ? (
-          <Image src={src} alt={alt} fill sizes="(max-width: 768px) 80vw, 360px" priority={priority} />
+          <Image
+            src={src}
+            alt={alt}
+            fill
+            sizes="(max-width: 768px) 80vw, 360px"
+            priority={priority}
+            loading={priority ? undefined : "eager"}
+          />
         ) : (
           <div className="polaroid__placeholder" role="img" aria-label={`Placeholder foto: ${placeholderLabel}`}>
             <Icon name="camera" size={40} strokeWidth={1.8} />

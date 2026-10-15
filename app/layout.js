@@ -1,4 +1,5 @@
 import { Caveat, DM_Sans, Space_Grotesk } from "next/font/google";
+import LoadingScreen from "@/components/LoadingScreen";
 import "./globals.css";
 
 const display = Space_Grotesk({
@@ -43,7 +44,10 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="id" className={`${display.variable} ${body.variable} ${hand.variable}`}>
-      <body>{children}</body>
+      <body>
+        <LoadingScreen />
+        {children}
+      </body>
     </html>
   );
 }

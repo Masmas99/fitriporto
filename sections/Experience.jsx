@@ -31,7 +31,7 @@ export default function Experience() {
                 className="experience-card__tape"
               />
               <div className="experience-card__logo">
-                <Image src={experience.logo} alt="" width={96} height={96} />
+                <Image src={experience.logo} alt="" width={96} height={96} loading="eager" />
               </div>
               <div className="experience-card__details">
                 <span className="experience-card__role">{experience.role}</span>
