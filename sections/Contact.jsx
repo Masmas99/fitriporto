@@ -1,5 +1,4 @@
 import ContactCard from "@/components/ContactCard";
-import CopyButton from "@/components/CopyButton";
 import Icon from "@/components/Icon";
 import PaperClip from "@/components/PaperClip";
 import SectionHeading from "@/components/SectionHeading";
@@ -23,25 +22,27 @@ export default function Contact() {
           <div className="contact__intro">
             <SectionHeading
               id="contact-title"
-              number="05"
+              number="06"
               kicker="Contact"
               title="SAY HELLO!"
               highlight="HELLO!"
             />
             <p className="contact__message">
               Mau ngobrol, berkolaborasi, atau sekadar menyapa? Pintuku selalu
-              terbuka. Kontak resmi akan segera ditambahkan di sini.
+              terbuka. Silakan hubungi aku melalui email atau media sosial di bawah.
             </p>
 
             <div className="contact__cta">
               {emailReady ? (
-                <>
-                  <a className="btn btn--yellow" href={email.href}>
-                    <Icon name="mail" size={18} />
-                    Kirim Email
-                  </a>
-                  <CopyButton text={email.value} />
-                </>
+                <a
+                  className="btn btn--yellow"
+                  href={email.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Icon name="mail" size={18} />
+                  Kirim Email
+                </a>
               ) : (
                 <p className="pending-note" role="note">
                   <Icon name="clock" size={18} />

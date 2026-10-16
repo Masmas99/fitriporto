@@ -7,6 +7,7 @@ import Experience from "@/sections/Experience";
 import Hero from "@/sections/Hero";
 import Projects from "@/sections/Projects";
 import Skills from "@/sections/Skills";
+import Certificates from "@/sections/Certificates";
 import { profile } from "@/data/profile";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
         <Experience />
         <Projects />
         <Skills />
+        <Certificates />
         <Contact />
       </main>
       <Footer name={profile.fullName} />

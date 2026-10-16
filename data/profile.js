@@ -1,7 +1,5 @@
 /**
- * PROFIL — ganti nilai placeholder di bawah setelah dikonfirmasi oleh Fitri.
- * Nilai yang diawali "[" dan diakhiri "]" otomatis ditampilkan sebagai
- * placeholder (bergaris putus-putus) di website.
+ * PROFIL — Fitri Muliawati
  */
 export const profile = {
   firstName: "Fitri",
@@ -17,25 +15,24 @@ export const profile = {
   quote: "Small steps, big dreams.",
 
   /**
-   * Foto profil. Isi dengan path lokal di folder /public, mis. "/images/fitri.jpg".
-   * Selama bernilai null, website menampilkan placeholder polaroid.
+   * Foto profil di folder /public.
    */
   photo: "/FOTO.webp",
   photoAbout: "/FOTO.webp",
 
-  /** Biodata singkat — jangan diisi dengan tebakan. */
+  /** Biodata singkat resmi */
   biodata: [
     { label: "Nama", value: "Fitri Muliawati" },
-    { label: "Domisili", value: "[Kota]" },
-    { label: "Pendidikan", value: "[Pendidikan]" },
-    { label: "Status", value: "[Status saat ini]" },
+    { label: "Domisili", value: "Kota Tangerang" },
+    { label: "Pendidikan", value: "Double Degree" },
+    { label: "Status", value: "Mahasiswa" },
   ],
 
-  /** Minat / fokus — masih perlu dikonfirmasi. */
+  /** Minat & fokus keahlian */
   interests: [
-    "[Minat yang dikonfirmasi #1]",
-    "[Minat yang dikonfirmasi #2]",
-    "[Minat yang dikonfirmasi #3]",
+    "Quality Assurance",
+    "IT Business Intelligence",
+    "Software Quality Assurance",
   ],
 };
 

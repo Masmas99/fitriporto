@@ -1,28 +1,46 @@
 /**
- * SKILLS & TOOLS — semuanya placeholder sampai dikonfirmasi oleh Fitri.
- * Ganti teks "[...]" dengan skill/tool yang benar-benar dikuasai.
- * Sengaja TIDAK memakai skill bar / persentase.
+ * SKILLS & TOOLS — Fitri Muliawati
+ * Daftar keahlian resmi yang telah dikonfirmasi.
  */
 export const skillGroups = [
   {
-    id: "creative",
-    title: "Creative",
-    subtitle: "Design & ide",
+    id: "software-tools",
+    title: "Software & Tools",
+    subtitle: "Aplikasi & teknologi",
     color: "yellow",
-    items: ["[Skill kreatif #1]", "[Skill kreatif #2]", "[Skill kreatif #3]"],
+    items: [
+      "Figma",
+      "Python",
+      "SQL",
+      "FreeDDNS",
+      "JMO",
+      "Financial E-Wallets",
+    ],
   },
   {
-    id: "digital",
-    title: "Digital Tools",
-    subtitle: "Software & aplikasi",
+    id: "creative-technical",
+    title: "Creative & Technical",
+    subtitle: "Keahlian teknis & analisis",
     color: "pink",
-    items: ["[Tool digital #1]", "[Tool digital #2]", "[Tool digital #3]"],
+    items: [
+      "UI/UX Wireframing",
+      "Prototyping",
+      "Cybersecurity Basics",
+      "Data Science Fundamentals",
+      "Microsoft Office",
+    ],
   },
   {
-    id: "soft",
+    id: "soft-skills",
     title: "Soft Skills",
-    subtitle: "Cara bekerja",
+    subtitle: "Komunikasi & kerja tim",
     color: "paper",
-    items: ["[Soft skill #1]", "[Soft skill #2]", "[Soft skill #3]"],
+    items: [
+      "Problem Solving",
+      "Fast Learner",
+      "Customer Service",
+      "Time Management",
+      "Teamwork",
+    ],
   },
 ];

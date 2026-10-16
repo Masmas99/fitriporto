@@ -1,16 +1,11 @@
 /**
- * KONTAK & SOSIAL MEDIA
- * Selama `href` bernilai null, item ditampilkan sebagai placeholder
- * (bukan link aktif). Isi `value` dan `href` setelah data asli tersedia.
- *
- * Contoh setelah dikonfirmasi:
- *   email: { value: "fitri@domain.com", href: "mailto:fitri@domain.com" }
+ * KONTAK & SOSIAL MEDIA — Fitri Muliawati
  */
 export const contact = {
   email: {
     label: "Email",
-    value: "[email-kamu@example.com]",
-    href: null,
+    value: "fitrimuliawati151@gmail.com",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=fitrimuliawati151@gmail.com",
   },
 };
 
@@ -18,22 +13,22 @@ export const socialLinks = [
   {
     id: "instagram",
     label: "Instagram",
-    value: "[@username-instagram]",
-    href: null,
+    value: "@vtrylia",
+    href: "https://www.instagram.com/vtrylia/",
     icon: "instagram",
   },
   {
     id: "linkedin",
     label: "LinkedIn",
-    value: "[nama-profil-linkedin]",
-    href: null,
+    value: "Fitri Muliawati",
+    href: "https://www.linkedin.com/in/fitri-muliawati/",
     icon: "linkedin",
   },
   {
     id: "github",
     label: "GitHub",
-    value: "[username-github]",
-    href: null,
+    value: "fitrimuliawati",
+    href: "https://github.com/fitrimuliawati",
     icon: "github",
   },
 ];
@@ -44,5 +39,6 @@ export const navItems = [
   { id: "experience", label: "Experience" },
   { id: "projects", label: "Projects" },
   { id: "skills", label: "Skills" },
+  { id: "certificates", label: "Certificates" },
   { id: "contact", label: "Contact" },
 ];

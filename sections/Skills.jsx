@@ -1,3 +1,4 @@
+import Icon from "@/components/Icon";
 import PlaceholderText from "@/components/PlaceholderText";
 import SectionHeading from "@/components/SectionHeading";
 import Tape from "@/components/Tape";
@@ -24,9 +25,8 @@ export default function Skills() {
         />
 
         <p className="skills__notice" role="note">
-          <span className="stamp">DRAFT</span>
-          Daftar di bawah masih placeholder dan akan diisi setelah dikonfirmasi oleh Fitri.
-          Tidak ada persentase atau klaim tingkat keahlian.
+          <span className="stamp">CONFIRMED</span>
+          Kumpulan perangkat lunak, keahlian kreatif & teknis, serta soft skills yang dikuasai oleh Fitri Muliawati.
         </p>
 
         <div className="skills__grid">
@@ -45,7 +45,9 @@ export default function Skills() {
               <ul className="checklist">
                 {group.items.map((item) => (
                   <li key={item}>
-                    <span className="checklist__box" aria-hidden="true" />
+                    <span className="checklist__box checklist__box--checked" aria-hidden="true">
+                      <Icon name="check" size={13} />
+                    </span>
                     <PlaceholderText value={item} />
                   </li>
                 ))}
